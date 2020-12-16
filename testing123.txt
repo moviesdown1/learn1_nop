@@ -1,1 +1,11 @@
 Difference between Selenium Standalone server and Selenium server
+
+
+What is a Selenium Standalone server?
+Selenium Standalone server is a java jar file used to start the Selenium server. It is a smart proxy server that allows Selenium tests to route commands to remote web browser instances. The aim is to provide an easy way to run tests in parallel on multiple machines.
+
+Before going any further, let’s take a moment to understand what a Selenium jar is.
+
+Selenium Jar is a group of API’s rolled into one jar for different languages (Java, Python, C#, Javascript, etc.). The client jar can be acquired by tools like Maven or Gradle, basically open-source build automation systems. In case, the dependencies of the jar files are not available, one cannot perform testing in a specific programming language.
+
+To use a Selenium Grid, one can download the selenium-server-standalone JAR file. All the components are available through selenium-server. The standalone JAR contains the remote Selenium server and the client-side bindings which let you perform the testing without the need for any specific jar files.
