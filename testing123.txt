@@ -1,0 +1,1 @@
+Difference between Selenium Standalone server and Selenium server
