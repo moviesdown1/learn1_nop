@@ -1,0 +1,4 @@
+Advantages of Selenium Standalone server
+Allows test distribution over a remote machine or multiple machines.
+Performs automation testing on different browsers with different versions.
+A single server performs all the tasks without the help of external drivers.
